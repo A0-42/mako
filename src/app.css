@@ -1,0 +1,54 @@
+@import './lib/styles/fonts.css';
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Dark only */
+@custom-variant dark (&:where([data-mode="dark"], [data-mode="dark"] *));
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton-svelte';
+@import './lib/styles/mako.css';
+@import './lib/styles/tokens.css';
+
+/* Base body styles for dark theme */
+:root {
+	background-color: #0a0a0a;
+	color: #e0e0e0;
+}
+
+/* Mako prose overrides for mdsvex content */
+.prose {
+	--tw-prose-body: #e0e0e0;
+	--tw-prose-headings: #ffffff;
+	--tw-prose-links: #00e5ff;
+	--tw-prose-bold: #ffffff;
+	--tw-prose-code: #00e5ff;
+	--tw-prose-pre-bg: #141414;
+	--tw-prose-pre-code: #e0e0e0;
+	--tw-prose-quotes: #888888;
+	--tw-prose-hr: rgba(255, 255, 255, 0.08);
+	--tw-prose-counters: #555555;
+	--tw-prose-bullets: #555555;
+}
+
+.prose code::before,
+.prose code::after {
+	content: none;
+}
+
+.prose pre {
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 0.5rem;
+}
+
+.prose a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-color: rgba(0, 229, 255, 0.3);
+	transition: text-decoration-color 0.15s;
+}
+
+.prose a:hover {
+	text-decoration-color: #00e5ff;
+}
