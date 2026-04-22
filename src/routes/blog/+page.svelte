@@ -19,7 +19,7 @@
 							{post.date ? post.date.slice(2).replace(/-/g, '.') : '—'}
 						</time>
 						<div class="min-w-0">
-							<h2 class="text-sm font-medium text-surface-200-800 group-hover:text-surface-50-950 transition-colors duration-300 tracking-tight">
+							<h2 class="text-sm font-medium text-surface-200-800 group-hover:text-surface-50 transition-colors duration-300 tracking-tight">
 								{post.title}
 							</h2>
 							<p class="text-xs text-surface-500-500 mt-0.5">{post.description}</p>
