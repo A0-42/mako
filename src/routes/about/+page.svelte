@@ -1,5 +1,5 @@
 <div class="mx-auto max-w-xl px-6 pt-28 pb-16">
-	<p class="font-mono text-[10px] tracking-[0.2em] text-surface-400-600 mb-2">/about</p>
+	<p class="font-mono text-[10px] tracking-[0.2em] text-surface-500 mb-2">/about</p>
 	<div class="border-t border-surface-700 mt-6 mb-10"></div>
 	<div class="prose">
 		<p>
@@ -16,7 +16,7 @@
 		<p>
 			Ce blog, c'est mon carnet. Pas un média. Des trucs que j'ai envie d'écrire.
 		</p>
-		<p class="font-mono text-xs text-surface-400-600 mt-12">
+		<p class="font-mono text-xs text-surface-500 mt-12">
 			mako@lelab.dev · <a href="https://github.com/A0-42">github.com/A0-42</a>
 		</p>
 	</div>

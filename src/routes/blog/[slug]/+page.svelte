@@ -4,12 +4,12 @@
 
 <div class="mx-auto max-w-xl px-6 pt-28 pb-16">
 	<header class="mb-12">
-		<a href="/blog" class="font-mono text-[10px] tracking-wider text-surface-400-600 hover:text-primary-400 transition-colors duration-300">← RETOUR</a>
+		<a href="/blog" class="font-mono text-[10px] tracking-wider text-surface-500 hover:text-[#00e5ff] transition-colors duration-300">← RETOUR</a>
 		<div class="mt-8">
-			<time class="font-mono text-[11px] text-surface-500-500">
+			<time class="font-mono text-[11px] text-surface-500">
 				{data.meta.date ? data.meta.date.slice(2).replace(/-/g, '.') : ''}
 			</time>
-			<h1 class="text-xl sm:text-2xl text-surface-50-950 mt-3 tracking-tight" style="letter-spacing: -0.03em; font-weight: 500;">
+			<h1 class="text-xl sm:text-2xl text-surface-50 mt-3 tracking-tight" style="letter-spacing: -0.03em; font-weight: 500;">
 				{data.meta.title}
 			</h1>
 		</div>

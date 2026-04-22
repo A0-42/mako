@@ -5,10 +5,10 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
 	const postData = getPostMeta(params.slug);
 	if (!postData) throw error(404, 'Article non trouvé');
-
 	return {
 		slug: params.slug,
 		meta: postData.meta,
+		title: postData.meta.title,
 	};
 };
 
